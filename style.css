@@ -1,0 +1,67 @@
+/* Page heading */
+h1 {
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+/* Form container: fixed width, centered */
+.order-form {
+  width: 522px;
+  margin: 0 auto 60px;
+}
+
+/* Each label sits on its own line above its field */
+.order-form label {
+  display: block;
+}
+
+/* Text, email, tel, number and date fields */
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form input[type="tel"],
+.order-form input[type="number"],
+.order-form input[type="date"],
+.order-form textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 10px;
+  margin: 10px 0 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/* Comment box: taller and monospace, as in the mockup */
+.order-form textarea {
+  height: 222px;
+  font-family: monospace;
+  resize: vertical;
+}
+
+/* Highlight the field being edited */
+.order-form input:focus,
+.order-form textarea:focus {
+  border-color: #555;
+  outline: none;
+}
+
+/* Submit button: full-width black bar */
+.order-form input[type="submit"] {
+  display: block;
+  width: 96%;
+  padding: 10px;
+  margin-top: 2px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.order-form input[type="submit"]:hover {
+  background-color: #333;
+}
